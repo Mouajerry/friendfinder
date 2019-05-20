@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mouajerry/friendfinder/issues"
   },
-  "homepage": "https://github.com/Mouajerry/friendfinder#readme"
+  "homepage": "https://github.com/Mouajerry/friendfinder#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
 }
