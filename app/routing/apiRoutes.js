@@ -8,12 +8,11 @@ module.exports = function(app){
 // Create New Characters - takes in JSON input
 app.post("/api/friends", function(req, res) {
 	var newFriend = req.body;
-	var newScore = 0;
 	var total = 0;
 	var match = {
 		name: "",
 		photo: "",
-		difference: 10000
+		difference: 100
 	}
 
 	// Calculating totals 
